@@ -1,0 +1,89 @@
+ /* Default Tags */
+
+body {
+    background-image: url(./images/stars.gif);
+    text-align: center;
+    margin-top: 2em;
+    font-family: 'Brush Script MT', cursive, sans-serif;
+    font-weight: 600;
+}
+
+div {
+    width: fit-content;
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+a {
+    font-size: unset;
+    color:#ffe600;
+    text-decoration: none;
+}
+
+a:hover {
+    color: hotpink;
+}
+
+/* Global Styles */
+
+.beige_bg {
+    background-color: #eeecca;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #3b312a;
+}
+
+.brown_bg {
+    background-color:#3b312a;
+    text-decoration: none;
+    border-style:groove;
+    border-color: #796150;
+}
+
+.padding {
+    padding-right: 0.5em;
+    padding-left: 0.5em;
+    padding-top: 0.1em;
+    padding-bottom: 0.1em;
+}
+
+.vertical_spacing {
+    margin-top: 0.3em;
+    margin-bottom: 0.3em;
+}
+
+
+/* Text */
+
+.para_text {
+    font-size: 1.2em;
+}
+
+.medium_text_size {
+    font-size: 2em;
+}
+
+.smaller_text_size {
+    font-size: 1.5em;
+}
+
+.page_title {
+    font-size: 5em;
+    margin-top: 0.1em;
+}
+
+.sub_title {
+    font-size: 2.5em;
+    text-shadow: 2px 2px #000;
+}
+
+/* Recipe Page Specific */
+
+.recipe_subtitle, .para_text {
+    color: beige;
+}
+
+.color_red {
+    color: red;
+}
